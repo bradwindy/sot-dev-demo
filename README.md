@@ -8,20 +8,57 @@ This project is the demo project for the summer of tech developer experience wor
 
 0. You will need to install the following things on your computer:
    - [Node.js](https://nodejs.org/en/)
-   - An IDE of some sort (I reccommend [Visual Studio Code](https://code.visualstudio.com/))
+   - An IDE of some sort (I recommend [Visual Studio Code](https://code.visualstudio.com/))
 1. Create your own copy of this repo by clicking the "Use this template" button above
 2. Clone your own repo locally to your computer [(🔗 Guide)](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-3. Open a command line
 
 ## Developing
 
+> _Note: Look at the 'Technologies' section of this readme for info and guides regarding the technologies behind this site._
+
+To start developing, open the folder of this repo in the IDE of your choice. Then open a terminal window in the folder of the repo too. This can be done in Visual Studio Code using `` Ctrl + `  `` (on both windows and macOS), that's a backtick not an apostrophe, it's the key to the left of the 1 key.
+
+In the terminal window, first run:
+
+```
+npm install
+```
+
+This will install all the needed libraries for this project from node package manager. You can see them listed in `package.json`.
+
+Once that's done, run:
+
+```
+npm run dev
+```
+
+This builds and runs a development version of the site locally on your computer that has live updating. That means when you make changes to the code and then save the file, the local site will update itself automagically.
+
+Head to [localhost:3000](http://localhost:3000) in a browser to preview the site.
+
+Now you're free to make all the changes you see fit. Dont forget to commit and push your changes as you go. [(🔗 Guide)](https://guides.github.com/introduction/git-handbook/)
+
+Move to the 'Publishing' section below when you're ready to make your site public! 🎉
+
 ## Publishing
+
+Ready to go live? Thankfully due to choosing the Next.js platform, publishing is super easy, and Vercel, the creators of Next.js, abstract away a bunch of the annoying boilerplate stuff for us.
+
+Head to [vercel.com/new](https://vercel.com/new), and login using GitHub. Then click your import next to your websites repo. In the next step, select your GitHub account in the scope page, then simply click deploy to publish it!
+
+🎉🎉🎉 **Congrats! You're live!** 🎉🎉🎉
+
+You should end up with a URL ending in `.vercel.app`, and that's your live site that anyone can view.
+
+Any commits that are pushed to your main branch will now result in Vercel building and publishing a new version of your site automatically.
+
+Vercel offers free linking to custom domains that you own, but that's outside the scope of this project.
 
 ## Technologies
 
 - #### React
 
-  Web UI library that allows us to component-ise elements of our website to be reused with ease across multiple pages, such as the social media buttons on this site. It also allows for many modern methodologies of web development that we don't get into with this project.
+  Web UI library that makes UI easier to dev compared to plain JS. Allows us to component-ise elements of our website to be reused with ease across multiple pages, such as the social media buttons on this site. It also allows for many modern methodologies of web development that we don't get into with this project.
 
   ##### Links:
 
@@ -48,7 +85,7 @@ This project is the demo project for the summer of tech developer experience wor
 
 - #### Font Awesome Icons
 
-  A really handy, good-looking, and free icon library used for the social media buttons on this site.
+  A really handy, good-looking, and free icon library used for the button icons on this site.
 
   ##### Links:
 
