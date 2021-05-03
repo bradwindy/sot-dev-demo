@@ -2,7 +2,7 @@
 
 ## About
 
-This project is the demo project for the summer of tech developer experience workshop. It's styled in the way of a personal portfolio site, and you're welcome to fork it, make changes, and publish your own version.
+This project is the demo project for the summer of tech developer experience workshop. It's styled in the way of a personal portfolio site, and you're welcome to fork it, make changes, and publish your own version. To change just the text on this site, you won't need much in the way of existing skills, so don't be afraid to jump in and give things a go!
 
 ## Installation
 
