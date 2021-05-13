@@ -44,6 +44,30 @@ export default function WorkShowcase() {
                 </Card.Body>
               </Card>
             </Col>
+            <Col md>
+              <Card className="bg-light text-left mb-4">
+                <Card.Img variant="top" src="/images/template.jpg" />
+                <Card.Body>
+                  <Card.Title>Example work</Card.Title>
+                  <Card.Text className={utilStyles.cardText}>
+                    This an example of some work that I did that I think others
+                    would like to look at. I worked really hard on this and here
+                    is some great info. It was cool, and I had fun.
+                  </Card.Text>
+                  <Button
+                    variant="outline-dark"
+                    className="mb-1"
+                    href="https://example.com"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.rightSpacedIcon}
+                    />
+                    View on GitHub
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </section>
