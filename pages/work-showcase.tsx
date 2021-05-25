@@ -66,6 +66,28 @@ export default function WorkShowcase() {
                 </Card.Body>
               </Card>
             </Col>
+            <Col md>
+              <Card className="bg-light text-left mb-4">
+                <Card.Img variant="top" src="/images/template.jpg" />
+                <Card.Body>
+                  <Card.Title>SoT Dev Demo</Card.Title>
+                  <Card.Text className={utilStyles.cardText}>
+                    This is an SoT dev demo project. Hi everyone.
+                  </Card.Text>
+                  <Button
+                    variant="outline-dark"
+                    className="mb-1"
+                    href="https://trademe.co.nz"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.rightSpacedIcon}
+                    />
+                    Aorthi is awesome
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </section>
